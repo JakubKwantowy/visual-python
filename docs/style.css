@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(#303030 0%, #404040 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: large;
+    padding: 5px;
+    margin: 0;
+    height: 99%;
+}
+
+#container{
+    height: 100%;
+}
+
+#container > *{
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    text-align: center;
+}
+
+#container > .hidescroll{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#container > .hidescroll::-webkit-scrollbar{
+    display: none;
+}
+
+#title{
+    height: 12.5%;
+    background: #000;
+    font-size: 500%;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#nav{
+    height: 75%;
+    float: left;
+    width: 25%;
+    background: #777;
+}
+
+#main{
+    height: 75%;
+    float: left;
+    width: 75%;
+}
+
+#footer{
+    height: 12.5%;
+    font-size: 250%;
+    background: #404040;
+}
